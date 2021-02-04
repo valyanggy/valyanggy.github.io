@@ -196,6 +196,18 @@ a:focus {
 		padding: 0.5vh 0;
 		font-size: 20vh;
 	}
+
+
+	.image{
+		position: absolute;
+		top:10%;
+		right:10%; 
+		/* margin:auto;
+		/* display: flex;
+		justify-content: center; */
+		z-index:-100;
+		/* max-width: 50%; */
+	}
 }
 
 
@@ -271,4 +283,16 @@ a:focus {
 	width: 1500px;
 	max-height: 600px;
 	height: 80%;
+  }
+
+  .image{
+	  position: absolute;
+	  top:10%;
+	left:30%;
+	  /* margin:auto;
+	  /* display: flex;
+	  justify-content: center; */
+	  z-index:-100;
+	  /* max-width: 50%; */
+	  width: 70%;
   }
